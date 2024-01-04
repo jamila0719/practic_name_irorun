@@ -18,7 +18,7 @@ li{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    margin-left: 70px;
+    margin-left: 90px;
     width: 1160px;
 height: 51px;
 flex-shrink: 0;
@@ -71,5 +71,67 @@ margin-left: 15px;
 .conatiner .about{
     display: flex;
     margin-top: 89px;
-    margin-left: 70px;
+    margin-left: 90px;
+    gap: 107px;
+    background: #EAF2F5;
+}
+.conatiner .about .about_text h1{
+    color: #22253B;
+font-family: Gilroy;
+font-size: 46px;
+font-style: normal;
+font-weight: 500;
+line-height: 46px;
+}
+.conatiner .about .about_text h1 span{
+    color: #F15525;
+font-family: Gilroy SemiBold;
+font-size: 46px;
+font-style: normal;
+font-weight: 400;
+line-height: 46px;
+
+}
+.conatiner .about .about_text h1 strong{
+    color: #22253B;
+font-family: Gilroy SemiBold;
+font-size: 46px;
+font-style: italic;
+font-weight: 400;
+line-height: 46px;
+}
+.conatiner .about .about_text .about_line{
+    width: 365.216px;
+height: 1px;
+background: #DEDEDE;
+margin-top: 30px;
+}
+.conatiner .about .about_text p{
+    color: #22253B;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+padding-top: 15px;
+}
+.conatiner .about .about_text button{
+    width: 321px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 82px;
+background: #F15525;
+border: none;
+margin-top: 19px;
+color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 96.688%; /* 19.338px */
+letter-spacing: -0.6px;
+}
+.conatiner .about .about_text button:active{
+    background-color: #FFB359;
 }
