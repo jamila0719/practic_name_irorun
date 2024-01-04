@@ -3,8 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
 .conatiner{
     width: 1440px;
     height: 5577px;
     margin: 0 auto;
+}
+.conatiner .nav .logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 70px;
+    width: 1160px;
+height: 51px;
+flex-shrink: 0;
+border-radius: 75px;
+background: rgba(255, 255, 255, 0.90);
+backdrop-filter: blur(7.5px);
+}
+.conatiner .nav .logo ul{
+    display: flex;
+   gap: 41px;
+}
+.conatiner .nav .logo ul li a{
+    color: #22253B;
+text-align: center;
+font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 104.4%; 
+}
+
+.conatiner .nav .logo .nav_btn .first_btn{
+    border: none;
+    color: #3C3E50;
+font-family: Gilroy;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 104.4%;
+background-color: white;
+}
+.conatiner .nav .logo .nav_btn .second_btn{
+    border: none;
+    border-radius: 34px;
+    background: #38BFF2;
+    width: 77.903px;
+height: 30.731px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Gilroy;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 104.4%;
+margin-left: 15px;
+}
+.conatiner .nav .logo .nav_btn .second_btn:active{
+    background-color: #22253B;
+}
+.conatiner .about{
+    display: flex;
+    margin-top: 89px;
+    margin-left: 70px;
 }
