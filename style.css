@@ -75,7 +75,7 @@ margin-left: 15px;
     margin-top: 89px;
     margin-left: 90px;
     gap: 107px;
-    background: #EAF2F5;
+   
 }
 .conatiner .about .about_text h1{
     color: #22253B;
@@ -136,4 +136,32 @@ letter-spacing: -0.6px;
 }
 .conatiner .about .about_text button:active{
     background-color: #FFB359;
+}
+/* first section ended */
+/* second section started */
+.conatiner .education{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.conatiner .education h2{
+    text-align: center;
+    align-items: center;
+    color: #22253B;
+text-align: center;
+font-family: Gilroy SemiBold;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px;
+}
+.conatiner .education .education_info{
+    margin-top: 35px;
+    width: 1160px;
+height: 396px;
+flex-shrink: 0;
+border-radius: 48px;
+background: #EAF2F5;
+display: flex;
+padding-left: 100px;
+padding-top: 42px;
 }
